@@ -1,0 +1,6 @@
+@GT.Administration.System.WebApi_HostAddress = http://localhost:5071
+
+GET {{GT.Administration.System.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
