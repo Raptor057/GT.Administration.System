@@ -6,4 +6,32 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GT.Administration.System.Common\GT.Administration.System.Common.csproj" />
+    <ProjectReference Include="..\GT.Administration.System.Domain\GT.Administration.System.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\FinanceDtos\" />
+    <Folder Include="Dtos\LoginDtos\" />
+    <Folder Include="Dtos\LogisticDtos\" />
+    <Folder Include="Dtos\MoldingDtos\" />
+    <Folder Include="Dtos\ProductionDtos\" />
+    <Folder Include="Dtos\QualityDtos\" />
+    <Folder Include="Dtos\ShipmentsDtos\" />
+    <Folder Include="Dtos\SystemsDtos\" />
+    <Folder Include="Dtos\TestsDtos\" />
+    <Folder Include="Dtos\ToolsDtos\" />
+    <Folder Include="UseCases\Finance\" />
+    <Folder Include="UseCases\Login\" />
+    <Folder Include="UseCases\Logistic\" />
+    <Folder Include="UseCases\Molding\" />
+    <Folder Include="UseCases\Tools\" />
+    <Folder Include="UseCases\Tests\" />
+    <Folder Include="UseCases\Systems\" />
+    <Folder Include="UseCases\Shipments\" />
+    <Folder Include="UseCases\Quality\" />
+    <Folder Include="UseCases\Production\" />
+  </ItemGroup>
+
 </Project>

@@ -6,4 +6,21 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GT.Administration.System.App\GT.Administration.System.App.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EndPoints\Finance\" />
+    <Folder Include="EndPoints\Login\" />
+    <Folder Include="EndPoints\Logistic\" />
+    <Folder Include="EndPoints\Molding\" />
+    <Folder Include="EndPoints\Production\" />
+    <Folder Include="EndPoints\Quality\" />
+    <Folder Include="EndPoints\Shipments\" />
+    <Folder Include="EndPoints\Systems\" />
+    <Folder Include="EndPoints\Tests\" />
+    <Folder Include="EndPoints\Tools\" />
+  </ItemGroup>
+
 </Project>

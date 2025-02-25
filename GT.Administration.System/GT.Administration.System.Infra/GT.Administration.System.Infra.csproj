@@ -6,4 +6,27 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GT.Administration.System.Common\GT.Administration.System.Common.csproj" />
+    <ProjectReference Include="..\GT.Administration.System.Domain\GT.Administration.System.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Daos\Finance\" />
+    <Folder Include="Daos\Login\" />
+    <Folder Include="Daos\Logistic\" />
+    <Folder Include="Daos\Molding\" />
+    <Folder Include="Daos\Production\" />
+    <Folder Include="Daos\Quality\" />
+    <Folder Include="Daos\Shipments\" />
+    <Folder Include="Daos\Systems\" />
+    <Folder Include="Daos\Tests\" />
+    <Folder Include="Daos\Tools\" />
+  </ItemGroup>
+
 </Project>

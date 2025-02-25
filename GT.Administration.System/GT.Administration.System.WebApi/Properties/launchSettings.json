@@ -9,10 +9,10 @@
     }
   },
   "profiles": {
-    "http": {
+    "GT.Administration.System.WebApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "weatherforecast",
       "applicationUrl": "http://localhost:5071",
       "environmentVariables": {
