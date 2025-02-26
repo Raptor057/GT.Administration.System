@@ -17,16 +17,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Daos\Finance\" />
-    <Folder Include="Daos\Login\" />
-    <Folder Include="Daos\Logistic\" />
-    <Folder Include="Daos\Molding\" />
-    <Folder Include="Daos\Production\" />
-    <Folder Include="Daos\Quality\" />
-    <Folder Include="Daos\Shipments\" />
-    <Folder Include="Daos\Systems\" />
-    <Folder Include="Daos\Tests\" />
-    <Folder Include="Daos\Tools\" />
+    <Folder Include="Repositories\Finance\" />
+    <Folder Include="Repositories\Login\" />
+    <Folder Include="Repositories\Logistic\" />
+    <Folder Include="Repositories\Molding\" />
+    <Folder Include="Repositories\Production\" />
+    <Folder Include="Repositories\Quality\" />
+    <Folder Include="Repositories\Shipments\" />
+    <Folder Include="Repositories\Systems\" />
+    <Folder Include="Repositories\Tests\" />
+    <Folder Include="Repositories\Tools\" />
   </ItemGroup>
 
 </Project>

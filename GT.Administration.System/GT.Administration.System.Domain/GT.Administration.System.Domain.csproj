@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\Finance\" />
+    <Folder Include="Repositories\Login\" />
+    <Folder Include="Repositories\Logistic\" />
+    <Folder Include="Repositories\Molding\" />
+    <Folder Include="Repositories\Production\" />
+    <Folder Include="Repositories\Quality\" />
+    <Folder Include="Repositories\Shipments\" />
+    <Folder Include="Repositories\Systems\" />
+    <Folder Include="Repositories\Tests\" />
+    <Folder Include="Repositories\Tools\" />
+  </ItemGroup>
+
 </Project>
